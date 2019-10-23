@@ -1,9 +1,9 @@
 {
-  "name": "hadith",
-  "description": "Hadith database",
+  "name": "keystone-hadith",
+  "description": "Keystone Hadith database",
   "private": true,
   "version": "1.0",
-  "author": "Ossama",
+  "author": "Ossama HARACH",
   "license": "MIT",
   "engines": {
     "node": ">=8.4.0"
