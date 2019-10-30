@@ -1,9 +1,9 @@
-const { Keystone } = require('@keystone-alpha/keystone');
-const { PasswordAuthStrategy } = require('@keystone-alpha/auth-password');
-const { Text, Checkbox, Password, Relationship } = require('@keystone-alpha/fields');
-const { GraphQLApp } = require('@keystone-alpha/app-graphql');
-const { AdminUIApp } = require('@keystone-alpha/app-admin-ui');
-const { MongooseAdapter: Adapter } = require('@keystone-alpha/adapter-mongoose');
+const { Keystone } = require('@keystonejs/keystone');
+const { PasswordAuthStrategy } = require('@keystonejs/auth-password');
+const { Text, Checkbox, Password, Relationship } = require('@keystonejs/fields');
+const { GraphQLApp } = require('@keystonejs/app-graphql');
+const { AdminUIApp } = require('@keystonejs/app-admin-ui');
+const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
 
 const PROJECT_NAME = "My Hadith";
 
